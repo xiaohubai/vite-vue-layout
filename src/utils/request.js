@@ -3,7 +3,7 @@ import { ElMessage } from 'element-plus'
 import { useUserStore } from '@/pinia/modules/user'
 
 const service = axios.create({
-    baseURL: import.meta.env.VITE_SERVER_PREFIX_API,
+    baseURL: import.meta.env.VITE_SERVER_API_PREFIX,
     timeout: 5000
 })
 

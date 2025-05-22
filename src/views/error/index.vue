@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<script setup lang="ts" name="Error">
+<script setup name="Error">
 
 </script>
 

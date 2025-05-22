@@ -1,6 +1,6 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 
-const routes: any = [
+const routes = [
   {
     path: '/',
     redirect: '/login'
@@ -22,4 +22,3 @@ const router = createRouter({
 })
 
 export default router
-
